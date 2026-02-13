@@ -1,0 +1,8 @@
+{
+  "name": "faa-full-system",
+  "version": "2.0.0",
+  "description": "Full FAA System - Netlify + Supabase",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7"
+  }
+}

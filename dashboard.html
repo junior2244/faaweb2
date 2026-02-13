@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FAA Dashboard</title>
+</head>
+<body>
+  <h1>FAA Dashboard</h1>
+  <div id="userInfo"></div>
+
+  <h3>Duty</h3>
+  <button onclick="toggleDuty('on')">On Duty</button>
+  <button onclick="toggleDuty('off')">Off Duty</button>
+
+  <h3>Promotions (Rank 4+ Only)</h3>
+  <input id="targetId" placeholder="Target User UUID">
+  <input id="newRank" placeholder="New Rank">
+  <button onclick="promote()">Promote</button>
+
+  <h3>Planes</h3>
+  <input id="planeName" placeholder="Plane Name">
+  <button onclick="addPlane()">Add Plane</button>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
